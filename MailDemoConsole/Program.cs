@@ -15,6 +15,9 @@ message.To.Add(to);
 message.Subject = "Hi waisa";
 
 var bb = new BodyBuilder();
+
+bb.Attachments.Add("H:\\Development\\My Learning\\Email projects\\MailDemoConsole\\MailDemoConsole\\test.png");
+
 bb.TextBody = "Hello Waisa";
 bb.HtmlBody = "<p> How are you doing? \r\n I hope you are doing well. \r\n Best regards, \r\n Abdulwais Alnuaimi</p>";
 
